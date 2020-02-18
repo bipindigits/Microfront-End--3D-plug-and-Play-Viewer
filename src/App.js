@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import ReactThreeFbxViewer from 'react-three-fbx-viewer';
 
-let fbxUrl = require('./asd.fbx');
+import fbxUrl from './fbx/asd.fbx';
 
 export default class App extends Component {
   onLoad(e) {
